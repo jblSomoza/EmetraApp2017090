@@ -1,0 +1,56 @@
+﻿<Controls:MetroWindow x:Class="SanctionTypeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmetraApp2017090"
+        mc:Ignorable="d"
+        BorderBrush="{DynamicResource AccentColorBrush}"
+        BorderThickness ="3"
+        ResizeMode="CanResizeWithGrip"
+        WindowStartupLocation="CenterScreen"
+        Title="SanctionTypeView" Height="500" Width="750">
+    <Grid>
+
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF2EC52E" Offset="0.988"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Label x:Name="lbRemissionID" Content="RemissionID" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="20" FontWeight="UltraBold" />
+        <Label x:Name="lbDescription" Content="Description" HorizontalAlignment="Left" Margin="13,84,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="20" FontWeight="UltraBold" />
+        <Label x:Name="lbImport" Content="Import" HorizontalAlignment="Left" Margin="411,27,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="20" FontWeight="UltraBold" />
+        <Label x:Name="lbRecurrent" Content="Recurrent" HorizontalAlignment="Left" Margin="401,84,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="20" FontWeight="UltraBold" />
+
+        <TextBox x:Name="txtRemissionID" IsEnabled="false" Text="{Binding RemissionID}" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Enter Remission ID" HorizontalAlignment="Left" Height="34" Margin="171,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+        <TextBox x:Name="txtDescription" Text="{Binding Description}" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Enter Description" HorizontalAlignment="Left" Height="34" Margin="171,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+        <TextBox x:Name="txtImport" Text="{Binding Import}" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Enter Import" HorizontalAlignment="Left" Height="34" Margin="535,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+        <TextBox x:Name="txtRecurrent" Text="{Binding Recurrent}" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Enter Recurrent" HorizontalAlignment="Left" Height="34" Margin="535,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+
+        <StackPanel HorizontalAlignment="Left" Height="190" Margin="13,206,0,0" VerticalAlignment="Top" Width="719">
+            <DataGrid x:Name="dataGrid" ColumnWidth="*" IsReadOnly="True" ItemsSource="{Binding ListSanctionType}" SelectedItem="{Binding Element}"  AutoGenerateColumns="false"  VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" Height="189" Style="{StaticResource AzureDataGrid}">
+                <DataGrid.Columns>
+
+                    <DataGridCheckBoxColumn ElementStyle="{DynamicResource MetroDataGridCheckBox}"
+                                        EditingElementStyle="{DynamicResource MetroDataGridCheckBox}"
+                                        Header="Selected"
+                                        Binding="{Binding RelativeSource={RelativeSource AncestorType=DataGridRow}, Path=IsSelected, Mode=OneWay}"
+                                        />
+
+                    <DataGridTextColumn  Header="remission ID"  Binding="{Binding RemissionID}"/>
+                    <DataGridTextColumn Header="Description"  Binding="{Binding Description}"/>
+                    <DataGridTextColumn  Header="Import" Binding="{Binding Import}"/>
+                    <DataGridTextColumn  Header="Recurrent" Binding="{Binding Recurrent}"/>
+                </DataGrid.Columns>
+            </DataGrid >
+        </StackPanel>
+
+        <Button x:Name="btnNew" IsEnabled="{Binding BtnNew}" CommandParameter="new"  Command="{Binding Model}" Style="{StaticResource AccentedSquareButtonStyle}" Content="New" HorizontalAlignment="Left" Margin="13,413,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnSave" IsEnabled="{Binding BtnSave}" CommandParameter="save" Command="{Binding Model}" Style="{StaticResource AccentedSquareButtonStyle}" Content="Save" HorizontalAlignment="Left" Margin="154,413,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnUpdate" IsEnabled="{Binding BtnUpdate}" CommandParameter="update" Command="{Binding Model}" Style="{StaticResource AccentedSquareButtonStyle}" Content="Update" HorizontalAlignment="Left" Margin="303,413,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnDelete"  IsEnabled="{Binding BtnDelete}" CommandParameter="delete" Command="{Binding Model}" Style="{StaticResource AccentedSquareButtonStyle}" Content="Delete" HorizontalAlignment="Left" Margin="473,413,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnCancel" IsEnabled="{Binding BtnCancel}" CommandParameter="cancel" Command="{Binding Model}" Style="{StaticResource AccentedSquareButtonStyle}" Content="Cancel" HorizontalAlignment="Left" Margin="625,413,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Controls:MetroWindow>

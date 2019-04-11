@@ -1,0 +1,33 @@
+﻿<Controls:MetroWindow x:Class="MainPrincipalView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmetraApp2017090"
+        mc:Ignorable="d"
+        BorderBrush="{DynamicResource AccentColorBrush}"
+        BorderThickness ="3"
+        ResizeMode="CanResizeWithGrip"
+        WindowStartupLocation="CenterScreen"                      
+        Title="MainPrincipalView" Height="450" Width="700">
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button Content="Neighbor" Command="{Binding Model}" CommandParameter="neighbor" FontFamily="UltraBold"/>
+                <Button Content="Agent" Command="{Binding Model}" CommandParameter="agent" FontFamily="UltraBold"/>
+                <Button Content="Sanction Type" Command="{Binding Model}" CommandParameter="sanctiontype" FontFamily="UltraBold"/>
+                <Button Content="Vehicle" Command="{Binding Model}" CommandParameter="vehicle" FontFamily="UltraBold"/>
+            <Button Content="Remission" Command="{Binding Model}" CommandParameter="remission" FontFamily="UltraBold"/>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF12D312" Offset="0.234"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image x:Name="___EmetraApp2017090_component_logo_png" Margin="10,10,432,289" Source="/EmetraApp2017090;component/logo.png" Stretch="Fill"/>
+
+    </Grid>
+</Controls:MetroWindow>

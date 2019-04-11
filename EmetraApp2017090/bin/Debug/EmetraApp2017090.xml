@@ -1,0 +1,143 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EmetraApp2017090
+</name>
+</assembly>
+<members>
+<member name="T:EmetraApp2017090.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:EmetraApp2017090.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:EmetraApp2017090.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:EmetraApp2017090.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:EmetraApp2017090.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:EmetraApp2017090.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:EmetraApp2017090.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:EmetraApp2017090.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:EmetraApp2017090.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="T:EmetraApp2017090.AgentView">
+<summary>
+AgentView
+</summary>
+</member>
+<member name="M:EmetraApp2017090.AgentView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:EmetraApp2017090.MainPrincipalView">
+<summary>
+MainPrincipalView
+</summary>
+</member>
+<member name="M:EmetraApp2017090.MainPrincipalView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:EmetraApp2017090.NeighborView">
+<summary>
+NeighborView
+</summary>
+</member>
+<member name="M:EmetraApp2017090.NeighborView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:EmetraApp2017090.RemissionView">
+<summary>
+RemissionView
+</summary>
+</member>
+<member name="M:EmetraApp2017090.RemissionView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:EmetraApp2017090.SanctionTypeView">
+<summary>
+SanctionTypeView
+</summary>
+</member>
+<member name="M:EmetraApp2017090.SanctionTypeView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:EmetraApp2017090.VehicleView">
+<summary>
+VehicleView
+</summary>
+</member>
+<member name="M:EmetraApp2017090.VehicleView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:EmetraApp2017090.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:EmetraApp2017090.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:EmetraApp2017090.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:EmetraApp2017090.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:EmetraApp2017090.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

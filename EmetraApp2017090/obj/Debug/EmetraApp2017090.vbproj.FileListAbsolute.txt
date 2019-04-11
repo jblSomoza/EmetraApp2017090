@@ -1,0 +1,156 @@
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.exe.config
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.exe
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.pdb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.xml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\ControlzEx.dll
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.dll
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.dll
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\ControlzEx.pdb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.xml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.pdb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.xml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.vbprojResolveAssemblyReference.cache
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\MainWindow.g.vb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\AgentView.g.vb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\NeighborView.g.vb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\Application.g.vb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090_MarkupCompile.cache
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090_MarkupCompile.lref
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\MainWindow.baml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\AgentView.baml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\NeighborView.baml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.g.resources
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.Resources.resources
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.vbproj.GenerateResource.Cache
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.exe
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.xml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.pdb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\VehicleView.g.vb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\VehicleView.baml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\SanctionTypeView.g.vb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\SanctionTypeView.baml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\RemissionView.g.vb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\RemissionView.baml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\MainPrincipalView.g.vb
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\Application.baml
+C:\Users\bryan\Downloads\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\MainPrincipalView.baml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.exe.config
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.exe
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.xml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.pdb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.exe
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.pdb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.xml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\ControlzEx.dll
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.dll
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.dll
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\ControlzEx.pdb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.xml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.pdb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.xml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.vbprojResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\MainWindow.g.vb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\AgentView.g.vb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\MainPrincipalView.g.vb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\NeighborView.g.vb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\RemissionView.g.vb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\SanctionTypeView.g.vb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\VehicleView.g.vb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\Application.g.vb
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090_MarkupCompile.cache
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090_MarkupCompile.lref
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\Application.baml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\MainWindow.baml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\AgentView.baml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\MainPrincipalView.baml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\NeighborView.baml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\RemissionView.baml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\SanctionTypeView.baml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\VehicleView.baml
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.g.resources
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.Resources.resources
+C:\Users\bryan\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.vbproj.GenerateResource.Cache
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.exe.config
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.exe
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.xml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.pdb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.exe
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.pdb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.xml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\ControlzEx.dll
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.dll
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.SqlServer.dll
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.dll
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\System.Windows.Interactivity.dll
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\ControlzEx.pdb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.xml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.SqlServer.xml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.pdb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.xml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.vbprojResolveAssemblyReference.cache
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\MainWindow.g.vb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\AgentView.g.vb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\MainPrincipalView.g.vb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\NeighborView.g.vb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\RemissionView.g.vb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\SanctionTypeView.g.vb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\VehicleView.g.vb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\Application.g.vb
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090_MarkupCompile.cache
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090_MarkupCompile.lref
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\Application.baml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\MainWindow.baml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\AgentView.baml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\MainPrincipalView.baml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\NeighborView.baml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\RemissionView.baml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\SanctionTypeView.baml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\VehicleView.baml
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.g.resources
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.Resources.resources
+E:\Informática\Taller\IV Unidad\Proyecto WPF\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.vbproj.GenerateResource.Cache
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.exe.config
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.exe
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.xml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.pdb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.exe
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.pdb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EmetraApp2017090.xml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\ControlzEx.dll
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.dll
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.dll
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\ControlzEx.pdb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.xml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.pdb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\bin\Debug\MahApps.Metro.xml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.vbprojResolveAssemblyReference.cache
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\MainWindow.g.vb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\AgentView.g.vb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\MainPrincipalView.g.vb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\NeighborView.g.vb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\RemissionView.g.vb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\SanctionTypeView.g.vb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\VehicleView.g.vb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\Application.g.vb
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090_MarkupCompile.cache
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090_MarkupCompile.lref
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\Application.baml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\MainWindow.baml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\AgentView.baml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\MainPrincipalView.baml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\NeighborView.baml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\RemissionView.baml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\SanctionTypeView.baml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\View\VehicleView.baml
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.g.resources
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.Resources.resources
+C:\Users\Informatica\Desktop\EmetraApp2017090\EmetraApp2017090\obj\Debug\EmetraApp2017090.vbproj.GenerateResource.Cache

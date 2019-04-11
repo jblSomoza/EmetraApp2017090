@@ -1,0 +1,64 @@
+﻿<Controls:MetroWindow x:Class="VehicleView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmetraApp2017090"
+        mc:Ignorable="d"
+        BorderBrush="{DynamicResource AccentColorBrush}"
+        BorderThickness ="3"
+        ResizeMode="CanResizeWithGrip"
+        WindowStartupLocation="CenterScreen"
+        Title="VehicleView" Height="500" Width="750">
+    <Grid>
+
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF2EC52E" Offset="0.988"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Label x:Name="lbLicensePlate" Content="LicensePlate" HorizontalAlignment="Left" Margin="13,32,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="20" FontWeight="UltraBold" />
+        <Label x:Name="lbNIT" Content="NIT" HorizontalAlignment="Left" Margin="13,71,0,0" VerticalAlignment="Top" Height="34" Width="48" FontSize="20" FontWeight="UltraBold" />
+        <Label x:Name="lbBrand" Content="Brand" HorizontalAlignment="Left" Margin="13,110,0,0" VerticalAlignment="Top" Height="34" Width="auto" FontSize="20" FontWeight="UltraBold" />
+        <Label x:Name="lbModel" Content="Model" HorizontalAlignment="Left" Margin="13,149,0,0" VerticalAlignment="Top" Height="34" Width="auto" FontSize="20" FontWeight="UltraBold" />
+        <Label x:Name="lbTypeOfVehicle" Content="Type Of Vehicle" HorizontalAlignment="Left" Margin="367,27,0,0" VerticalAlignment="Top" Height="AUTO" Width="auto" FontSize="20" FontWeight="UltraBold" />
+
+        <TextBox x:Name="txtLicensePlate" Text="{Binding LicensePlate}" Controls:TextBoxHelper.Watermark="Enter License Plate" Controls:TextBoxHelper.ClearTextButton="True" HorizontalAlignment="Left" Height="34" Margin="150,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="txtBrand" Text="{Binding Brand}" Controls:TextBoxHelper.Watermark="Enter Brand" Controls:TextBoxHelper.ClearTextButton="True" HorizontalAlignment="Left" Height="34" Margin="150,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="txtModelV" Text="{Binding ModelV}" Controls:TextBoxHelper.Watermark="Enter Model" Controls:TextBoxHelper.ClearTextButton="True" HorizontalAlignment="Left" Height="34" Margin="150,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="txtTypeOfVehicle" Text="{Binding TypeOfVehicle}" Controls:TextBoxHelper.Watermark="Enter Type of Vehicle" Controls:TextBoxHelper.ClearTextButton="True" HorizontalAlignment="Left" Height="34" Margin="535,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+
+        <ComboBox x:Name="cmbNIT" Controls:TextBoxHelper.Watermark="Seleted NIT" ItemsSource="{Binding ListNeighbor}" SelectedItem="{Binding Neighbor}" HorizontalAlignment="Left" Margin="150,66,0,0" VerticalAlignment="Top" Width="187" Height="34">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding NIT}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox >
+
+        <StackPanel HorizontalAlignment="Left" Height="190" Margin="13,206,0,0" VerticalAlignment="Top" Width="719">
+            <DataGrid ColumnWidth="*" IsReadOnly="True" ItemsSource="{Binding ListVehicle}" SelectedItem="{Binding Element}"  AutoGenerateColumns="false"  VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" Style="{StaticResource AzureDataGrid}" Height="190">
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn ElementStyle="{DynamicResource MetroDataGridCheckBox}"
+                                        EditingElementStyle="{DynamicResource MetroDataGridCheckBox}"
+                                        Header="Selected"
+                                        Binding="{Binding RelativeSource={RelativeSource AncestorType=DataGridRow}, Path=IsSelected, Mode=OneWay}"
+                                        />
+                    <DataGridTextColumn  Header="LicensePlate" Binding="{Binding LicensePlate}"/>
+                    <DataGridTextColumn  Header="NIT" Binding="{Binding NIT}"/>
+                    <DataGridTextColumn  Header="Brand" Binding="{Binding Brand}"/>
+                    <DataGridTextColumn  Header="Model" Binding="{Binding Model1}"/>
+                    <DataGridTextColumn  Header="Type Of Vehicle" Binding="{Binding TypeOfVehicle}"/>
+                </DataGrid.Columns>
+            </DataGrid >
+        </StackPanel>
+
+        <Button x:Name="btnNew" IsEnabled="{Binding BtnNew}" CommandParameter="new"  Command="{Binding Model}" Content="New" HorizontalAlignment="Left" Margin="13,425,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource AccentedSquareButtonStyle}"/>
+        <Button x:Name="btnSave" IsEnabled="{Binding BtnSave}" CommandParameter="save" Command="{Binding Model}" Content="Save" HorizontalAlignment="Left" Margin="132,425,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource AccentedSquareButtonStyle}"/>
+        <Button x:Name="btnUpdate" IsEnabled="{Binding BtnUpdate}" CommandParameter="update" Command="{Binding Model}" Content="Update" HorizontalAlignment="Left" Margin="254,425,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource AccentedSquareButtonStyle}"/>
+        <Button x:Name="btnDelete" IsEnabled="{Binding BtnDelete}" CommandParameter="delete" Command="{Binding Model}" Content="Delete" HorizontalAlignment="Left" Margin="383,425,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource AccentedSquareButtonStyle}"/>
+        <Button x:Name="btnCancel" IsEnabled="{Binding BtnCancel}" CommandParameter="cancel" Command="{Binding Model}" Content="Cancel" HorizontalAlignment="Left" Margin="518,425,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource AccentedSquareButtonStyle}"/>
+    </Grid>
+</Controls:MetroWindow> 

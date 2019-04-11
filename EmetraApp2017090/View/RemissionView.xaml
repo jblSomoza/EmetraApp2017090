@@ -1,0 +1,92 @@
+﻿<Controls:MetroWindow x:Class="RemissionView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmetraApp2017090"
+        mc:Ignorable="d"
+        BorderBrush="{DynamicResource AccentColorBrush}"
+        BorderThickness ="3"
+        ResizeMode="CanResizeWithGrip"
+        WindowStartupLocation="CenterScreen"
+        Title="RemissionView" Height="500" Width="900">
+    <Grid>
+
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF2EC52E" Offset="0.988"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Label x:Name="lbOrdenNumber" Content="OrdenNumber" HorizontalAlignment="Left" Margin="13,24,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="20" FontWeight="UltraBold" />
+        <Label x:Name="lbRemissionDate" Content="RemissionDate" HorizontalAlignment="Left" Margin="13,66,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="20" FontWeight="UltraBold"/>
+        <Label x:Name="lbHour" Content="Hour" HorizontalAlignment="Left" Margin="13,108,0,0" VerticalAlignment="Top" Height="34" Width="auto" FontSize="20" FontWeight="UltraBold"/>
+        <Label x:Name="lbPlace" Content="Place" HorizontalAlignment="Left" Margin="13,154,0,0" VerticalAlignment="Top" Height="34" Width="auto" FontSize="20" FontWeight="UltraBold"/>
+        <Label x:Name="lbRemissionID" Content="RemissionID" HorizontalAlignment="Left" Margin="402,24,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="20" FontWeight="UltraBold"/>
+        <Label x:Name="lbAgentNumber" Content="AgentNumber" HorizontalAlignment="Left" Margin="383,63,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="20" FontWeight="UltraBold"/>
+        <Label x:Name="lbLicensePlate" Content="LicensePlate" HorizontalAlignment="Left" Margin="400,105,0,0" VerticalAlignment="Top" Height="auto" Width="auto" FontSize="20" FontWeight="UltraBold"/>
+        <Label x:Name="lbAgentID" Content="AgentID" HorizontalAlignment="Left" Margin="437,150,0,0" VerticalAlignment="Top" Height="38" Width="auto" FontSize="20" FontWeight="UltraBold"/>
+
+
+        <TextBox x:Name="txtOrdenNumber" Text="{Binding OrderNumber}" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Enter Orden Number" HorizontalAlignment="Left" Height="34" Margin="159,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"/>
+        <TextBox x:Name="txtHour" Text="{Binding Hour}" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Enter Hour" HorizontalAlignment="Left" Height="34" Margin="133,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+        <TextBox x:Name="txtPlace" Text="{Binding Place}" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Enter Place" HorizontalAlignment="Left" Height="34" Margin="133,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+        <TextBox x:Name="txtAgentNumber" Text="{Binding AgentNumber}" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Enter Agent Number" HorizontalAlignment="Left" Height="34" Margin="585,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"/>
+
+        <DatePicker HorizontalAlignment="Left" SelectedDate ="{Binding RemissionDate}"  Margin="167,73,0,0" VerticalAlignment="Top" Width="163"/>
+
+        <ComboBox x:Name="cmbRemissionID" Controls:TextBoxHelper.Watermark="Selected RemissionID" ItemsSource="{Binding ListSanctionType}" SelectedItem="{Binding SanctionType}" HorizontalAlignment="Left" Margin="585,24,0,0" VerticalAlignment="Top" Width="187" Height="34" RenderTransformOrigin="0.501,0.529">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding RemissionID}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <ComboBox x:Name="cmbLicensePlate" ItemsSource="{Binding ListVehicle}" SelectedItem="{Binding Vehicle}" Controls:TextBoxHelper.Watermark="Seleted License Plate" HorizontalAlignment="Left" Margin="585,108,0,0" VerticalAlignment="Top" Width="187" Height="34" RenderTransformOrigin="0.501,0.529">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding LicensePlate}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox >
+
+        <ComboBox x:Name="cmbAgentID" ItemsSource="{Binding ListAgent}" SelectedItem="{Binding Agent}" Controls:TextBoxHelper.Watermark="Seleted Agent ID" HorizontalAlignment="Left" Margin="585,150,0,0" VerticalAlignment="Top" Width="187" Height="34" RenderTransformOrigin="0.501,0.529">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding AgentID}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox >
+
+        <StackPanel HorizontalAlignment="Left" Height="190" Margin="13,206,0,0" VerticalAlignment="Top" Width="863">
+            <DataGrid x:Name="dataGrid" ColumnWidth="*" IsReadOnly="True" Style="{StaticResource AzureDataGrid}" ItemsSource="{Binding ListRemission}" SelectedItem="{Binding Element}"  AutoGenerateColumns="false"  VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" Height="189">
+                <DataGrid.Columns>
+
+                    <DataGridCheckBoxColumn ElementStyle="{DynamicResource MetroDataGridCheckBox}"
+                                        EditingElementStyle="{DynamicResource MetroDataGridCheckBox}"
+                                        Header="Selected"
+                                            Width="auto"
+                                        Binding="{Binding RelativeSource={RelativeSource AncestorType=DataGridRow}, Path=IsSelected, Mode=OneWay}"
+                                        />
+
+                    <DataGridTextColumn  Header="OrderNumber" Binding="{Binding OrderNumber}"/>
+                    <DataGridTextColumn  Header="RemissionDate" Binding="{Binding RemissionDate}"/>
+                    <DataGridTextColumn  Header="Hour" Binding="{Binding Hour}"/>
+                    <DataGridTextColumn  Header="Place" Binding="{Binding Place}"/>
+                    <DataGridTextColumn  Header="RemissionID" Binding="{Binding RemissionID}"/>
+                    <DataGridTextColumn  Header="AgentNumber" Binding="{Binding AgentNumber}"/>
+                    <DataGridTextColumn  Header="LicensePlate" Binding="{Binding LicensePlate}"/>
+                    <DataGridTextColumn  Header="AgentID" Binding="{Binding AgentID}"/>
+                </DataGrid.Columns>
+            </DataGrid >
+        </StackPanel>
+
+        <Button x:Name="btnNew" IsEnabled="{Binding BtnNew}" Style="{StaticResource AccentedSquareButtonStyle}" CommandParameter="new"  Command="{Binding Model}" Content="New" HorizontalAlignment="Left" Margin="22,413,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnSave" IsEnabled="{Binding BtnSave}" Style="{StaticResource AccentedSquareButtonStyle}" CommandParameter="save" Command="{Binding Model}" Content="Save" HorizontalAlignment="Left" Margin="167,414,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnUpdate" IsEnabled="{Binding BtnUpdate}" Style="{StaticResource AccentedSquareButtonStyle}" CommandParameter="update" Command="{Binding Model}" Content="Update" HorizontalAlignment="Left" Margin="319,414,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnDelete" IsEnabled="{Binding BtnDelete}" Style="{StaticResource AccentedSquareButtonStyle}" CommandParameter="delete" Command="{Binding Model}" Content="Delete" HorizontalAlignment="Left" Margin="493,414,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnCancel" IsEnabled="{Binding BtnCancel}" Style="{StaticResource AccentedSquareButtonStyle}" CommandParameter="cancel" Command="{Binding Model}" Content="Cancel" HorizontalAlignment="Left" Margin="663,414,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Controls:MetroWindow>
